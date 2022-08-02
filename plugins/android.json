@@ -1,0 +1,72 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-firebase-authentication": {
+      "ANDROID_FIREBASE_AUTH_VERSION": "20.0.+",
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-firebase-crashlytics": {
+      "ANDROID_FIREBASE_ANALYTICS_VERSION": "17.4.3",
+      "ANDROID_FIREBASE_CRASHLYTICS_VERSION": "17.1.0",
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-firebase-dynamiclinks": {
+      "APP_DOMAIN_NAME": "https://links.mypromille.com",
+      "APP_DOMAIN_PATH": "/",
+      "ANDROID_FIREBASE_DYNAMICLINKS_VERSION": "19.1.+",
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-firebase-inappmessaging": {
+      "ANDROID_FIREBASE_INAPPMESSAGING_VERSION": "19.1.+",
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    },
+    "sentry-cordova": {
+      "SENTRY_ANDROID_SDK_VERSION": "1+",
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-firebase-analytics": {
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "ANDROID_FIREBASE_ANALYTICS_VERSION": "18.0.+",
+      "PACKAGE_NAME": "com.ionicframework.myapp973316"
+    }
+  }
+}

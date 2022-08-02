@@ -1,0 +1,59 @@
+{
+  "name": "capacitor-app",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "main": "index.js",
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/android": "^4.0.1",
+    "@capacitor/camera": "latest",
+    "@capacitor/core": "^4.0.1",
+    "@capacitor/splash-screen": "latest",
+    "cordova-plugin-firebase-analytics": "^7.0.3",
+    "cordova-plugin-firebase-authentication": "^5.1.0",
+    "cordova-plugin-firebase-config": "^7.0.1",
+    "cordova-plugin-firebase-config": "^7.0.1",
+    "cordova-plugin-firebase-inappmessaging": "^5.0.0",
+    "cordova-plugin-inappbrowser": "^3.2.0",
+    "cordova-support-android-plugin": "^2.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^4.0.1",
+    "vite": "^2.9.13"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-firebase-inappmessaging": {
+        "ANDROID_FIREBASE_INAPPMESSAGING_VERSION": "19.1.+"
+      },
+      "cordova-plugin-firebase-authentication": {
+        "ANDROID_FIREBASE_AUTH_VERSION": "20.0.+"
+      },
+      "cordova-plugin-firebase-analytics": {},
+      "cordova-plugin-firebase-dynamiclinks": {
+        "APP_DOMAIN_NAME": "https://links.mypromille.com",
+        "APP_DOMAIN_PATH": "/",
+        "ANDROID_FIREBASE_DYNAMICLINKS_VERSION": "19.1.+"
+      },
+      "cordova-plugin-firebase-crashlytics": {
+        "ANDROID_FIREBASE_CORE_VERSION": "16.0.0",
+        "ANDROID_FIREBASE_ANALYTICS_VERSION": "17.4.3",
+        "ANDROID_FIREBASE_CRASHLYTICS_VERSION": "17.1.0"
+      }
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}

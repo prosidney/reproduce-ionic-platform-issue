@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-firebase-inappmessaging@4.0.0",
+      "/Users/SAssis/nikedev/git_respositories/mypromille"
+    ]
+  ],
+  "_from": "cordova-plugin-firebase-inappmessaging@4.0.0",
+  "_id": "cordova-plugin-firebase-inappmessaging@4.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-YCn7yntxKYIq3JAwWLT1DJr5jdxTQoZPAbpiTuHStzvd0NwnraUGKq4p1/Ah5Qi84sco1pBL40NRJcZt2rYSTA==",
+  "_location": "/cordova-plugin-firebase-inappmessaging",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-inappmessaging@4.0.0",
+    "name": "cordova-plugin-firebase-inappmessaging",
+    "escapedName": "cordova-plugin-firebase-inappmessaging",
+    "rawSpec": "4.0.0",
+    "saveSpec": null,
+    "fetchSpec": "4.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-inappmessaging/-/cordova-plugin-firebase-inappmessaging-4.0.0.tgz",
+  "_spec": "4.0.0",
+  "_where": "/Users/SAssis/nikedev/git_respositories/mypromille",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-firebase-inappmessaging",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "description": "Cordova plugin for Firebase In-App Messaging",
+  "funding": "https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging?sponsor=1",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging#readme",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "in-app messaging",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-inappmessaging",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "4.0.0"
+}
